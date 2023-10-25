@@ -28,6 +28,11 @@ const narbarLists = document.querySelector('.navbar-list');
        : 'fa-solid fa-bars'
 }
 
+// function updateProgressBar(progress) {
+//     const progressBar = document.querySelector('.progress');
+//     progressBar.style.width = `${progress}%`;
+//   }
+// updateProgressBar(50)
 // function showMenu() {
 //     document.querySelector('.navbar-list').classList.toggle("open");
 // }
