@@ -341,12 +341,13 @@ li {
     color: rgba(255, 255, 255, 0.1);
     z-index: 1;
     font-weight: 900;
-    /* padding: 0 55px; */
+    line-height: 1.3;
     margin-bottom: 0.5rem;
 }
 .about .small{
     font-size: 55px;
     font-weight: 700;
+    line-height: 1.3;
     margin-top: 0px;
     margin-bottom: 1.5rem;
     padding: 0 18px;
@@ -426,9 +427,10 @@ padding: 0 55px;
     z-index: -1;
     margin-bottom: 0.5rem;
     font-weight: 900;
-    line-height: 1.5;
+    line-height: 1.3;
 }
 .resume .small{
+    line-height: 1.3;
     position: relative;
     top: 0;
     left: 0;
@@ -522,7 +524,7 @@ padding: 0 55px;
     z-index: -1;
     margin-bottom: 0.5rem;
     font-weight: 900;
-    line-height: 1.5;
+    line-height: 1.3;
 }
 .service .small{
     position: relative;
@@ -530,6 +532,7 @@ padding: 0 55px;
     left: 0;
     font-weight: 700;
     font-size: 50px;
+    line-height: 1.3;
     margin-bottom: 1.5rem;
 }
 .service .heading p{
@@ -600,7 +603,6 @@ padding: 0 55px;
 .skill-detailed{
     margin: 150px 50px;
     position: relative;
-    /* margin-bottom: 50px; */
 }
 .skills{
     padding: 0 40px;
@@ -619,9 +621,10 @@ padding: 0 55px;
     z-index: -1;
     margin-bottom: 0.5rem;
     font-weight: 900;
-    line-height: 1.5; 
+    line-height: 1.3; 
 } 
 .skills .small{
+    line-height: 1.3;
     position: relative;
     top: 0;
     left: 0;
@@ -705,7 +708,7 @@ padding: 0 55px;
     z-index: -1;
     margin-bottom: 0.5rem;
     font-weight: 900;
-    line-height: 1.5;
+    line-height: 1.3;
 }
 .projects .small{
     position: relative;
@@ -713,6 +716,7 @@ padding: 0 55px;
     left: 0;
     font-weight: 700;
     font-size: 50px;
+    line-height: 1.3;
     margin-bottom: 1.5rem;
 }
 .projects  .heading p {
@@ -759,7 +763,7 @@ padding: 0 55px;
     transition: 0.3;
 }
 .small-img:hover .overlay{
-    opacity: 0.5;
+    opacity: 0.9;
 }
 .big-img .overlay{
     display: flex;
@@ -776,7 +780,7 @@ padding: 0 55px;
     transition: 0.3;
 }
 .big-img:hover .overlay{
-    opacity: 0.5;
+    opacity: 0.9;
 }
 .overlay>p{
     color: #fff;
@@ -785,8 +789,48 @@ padding: 0 55px;
   text-decoration: none;
   color: #fff;
 }
-.overlay:hover{
-    /* opacity: 1; */
+
+
+/* ======== Contact style ========= */
+
+.contact-me{
+    margin: 100px 40px;
+    position: relative;
+}
+.contacts{
+    padding: 0 40px;
+}
+.contacts .heading{
+    padding: 0 40px;
+    text-align: center;
+}
+.contacts .big{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    margin-bottom: 1.5rem;
+    font-weight: 900;
+    line-height: 1.3;
+}
+
+.contacts .small{
+    position: relative;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+}
+.contacts  .heading p {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    line-height: 1.6;
 }
 /* ----------- Media Query ----------- */
 
