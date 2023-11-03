@@ -798,7 +798,7 @@ padding: 0 55px;
     position: relative;
 }
 .contacts{
-    padding: 0 40px;
+    padding: 0 100px;
 }
 .contacts .heading{
     padding: 0 40px;
@@ -831,6 +831,209 @@ padding: 0 55px;
     padding-right: 150px;
     padding-bottom: 30px;
     line-height: 1.6;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.address{
+    border-radius: 4px;
+    padding: 30px;
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.address .circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    color: #ffbd39;
+    margin-bottom: 1em;
+    font-family: "font Awesome 5 free";
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.address > p a{
+    text-decoration: none;
+    color: inherit;
+}
+.icon-1::before{
+    content: "\f277";
+}
+.icon-2::before{
+    content: "\f095";
+}
+.icon-3::before{
+    content: "\f0e0";
+}
+.icon-4::before{
+    content: "\f0ac";
+}
+.address h3{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+.address p{
+    text-align: center;
+    font-size: 15px;
+}
+.form{
+    display: flex;
+    padding: 0 60px;
+}
+.form-img{
+    width: 100%;
+}
+.img {
+    height: 500px;
+    background: url(/images/Ronke-portifolio-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-input{
+   width: 100%;
+   height: 500px;
+   background: #fff;
+   padding: 40px;
+   text-align: center;
+}
+input,textarea{
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 10px 5px;
+    background-color: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: 'Solway';
+}
+input[type="submit"]{
+    display: block;
+    width: auto;
+    background: #ffbd39;
+    border: 0;
+    font-size: 12px;
+    border-radius:50px;
+    letter-spacing: 3px;
+    padding: 20px 35px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: inherit; 
+    font-weight: 500;
+}
+
+
+/* ======== Footer style ========= */
+.footer{
+    margin: 100px 40px;
+    color: #999;
+    position: relative;
+    line-height: 2;
+}
+.footer-container{
+    padding: 0 60px;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-row h2{
+    margin-bottom: 30px;
+    color: #FFF;
+}
+.footer-row a{
+    text-decoration: none;
+    color: inherit;
+    font-size: large;
+}
+.footer-row p{
+    color: inherit;
+    font-size: large;
+    line-height: 1.5;
+}
+.footer-question > ul > li{
+    color: inherit;
+    font-size: large;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.footer-about {
+    padding-right: 50px;
+    flex-basis: 20%;
+    flex-grow: 3;
+    flex-shrink: 0;
+} 
+.footer-question{
+    flex-basis: 30%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding-right: 30px;
+}
+.footer-links, .footer-services{
+    flex-basis: 20%;
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+.details .arrow{
+    font-family: "font Awesome 5 free";
+    font-weight: 900;
+    cursor: pointer;
+    /* padding-left: 10px; */
+}
+.details .arrow::before{
+    content: "\f178";
+}
+.details .icon{
+    font-family: "font Awesome 5 free";
+    font-weight: 900;
+    cursor: pointer;
+}
+.details .icon1::before{
+    content:  "\f041";
+}
+.details .icon2::before{
+    content: "\f095";
+}
+.details .icon3::before{
+    content: "\f0e0";   
+}
+.social-media .media{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #6d6666;
+    font-family: "font Awesome 5 free";
+    font-weight: 900;
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px;
+}
+.twitter::before{
+    content: "\f099";
+}
+.facebook::before{
+    content: "\f09a";
+}
+.instagram::before{
+    content: "\f16d";
+}
+.copyright{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 /* ----------- Media Query ----------- */
 
